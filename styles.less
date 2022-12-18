@@ -1,0 +1,619 @@
+// Color variables (appears count calculates by raw css)
+@color0: #cc9900; // Appears 6 times
+@color1: #000000; // Appears 2 times
+
+// Width variables (appears count calculates by raw css)
+@width0: 1250px; // Appears 3 times
+@width1: 1100px; // Appears 3 times
+@width9: 570px; // Appears 2 times
+@width10: 200px; // Appears 2 times
+@width11: 247px; // Appears 4 times
+@width12: 430px; // Appears 4 times
+@width24: 100%; // Appears 7 times
+
+// Height variables (appears count calculates by raw css)
+@height9: 758px; // Appears 2 times
+@height10: 36px; // Appears 2 times
+@height11: 70px; // Appears 2 times
+@height12: 80px; // Appears 2 times
+@height15: 100%; // Appears 6 times
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.pageWrapper {
+	.slide1 {
+		background-color: grey;
+		background-image: url('./Webp/AnyConv.com__slide1bg.webp');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: flex;
+		flex-direction: column;
+		height: 750px;
+		justify-content: space-between;
+		header {
+			margin: 0 auto;
+			max-width: @width0;
+			width: @width24;
+			.headerCont {
+				display: flex;
+				height: 110px;
+				justify-content: space-between;
+				padding: 0 20px;
+				.logoWrapper {
+					height: inherit;
+					width: 155px;
+					.logoImg {
+						height: inherit;
+						object-fit: contain;
+						width: inherit;
+					}
+				}
+				.links {
+					align-items: center;
+					display: flex;
+					flex-grow: 1;
+					flex-shrink: 1;
+					height: inherit;
+					justify-content: space-between;
+					nav {
+						flex-grow: 1;
+						flex-shrink: 1;
+						height: inherit;
+						width: @width24;
+						.navContainer {
+							align-items: center;
+							display: flex;
+							flex-wrap: wrap;
+							height: inherit;
+							justify-content: flex-end;
+							list-style: none;
+							padding: 0 20px;
+							.navLi {
+								color: white;
+								cursor: pointer;
+								font-family: 'Gentium Book Basic', serif;
+								font-size: 21px;
+								padding: 0 25px;
+								&:hover {
+									background-color: rgba(0, 0, 0, 0.2);
+									box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.597);
+									font-size: 23px;
+								}
+							}
+						}
+					}
+					.socialPic {
+						height: inherit;
+						width: 80px;
+						img {
+							height: @height15;
+							object-fit: contain;
+							width: @width24;
+						}
+					}
+				}
+				.links.active {
+					display: flex;
+				}
+				.burger {
+					align-items: center;
+					background-color: rgba(255, 255, 255, 0.251);
+					border-radius: 10px;
+					border: 1px solid white;
+					cursor: pointer;
+					display: none;
+					flex-direction: column;
+					height: 45px;
+					justify-content: center;
+					position: absolute;
+					right: 37px;
+					top: 37px;
+					width: 45px;
+					&:hover {
+						background-color: rgba(218, 218, 218, 0.482);
+					}
+					.layer {
+						background-color: rgba(255, 255, 255, 0.893);
+						border-radius: 2px;
+						box-shadow: 0px 0px 2px @color1;
+						height: 3px;
+						margin: 2px 0;
+						width: 20px;
+					}
+				}
+			}
+		}
+		.slide1Content {
+			align-items: center;
+			display: flex;
+			flex-direction: column;
+			height: 640px;
+			justify-content: center;
+			margin: 0 auto;
+			max-width: @width0;
+			text-align: center;
+			h1 {
+				color: white;
+				font-family: 'Yeseva One', cursive;
+				font-size: 90px;
+				text-shadow: 1px 2px 2px @color1;
+			}
+			.separator {
+				background-image: url('./Webp/AnyConv.com__Decoration.webp');
+				background-position: center;
+				background-repeat: no-repeat;
+				height: 130px;
+				width: 230px;
+			}
+			.buttonsCont {
+				display: flex;
+				justify-content: space-between;
+				width: 486px;
+				button {
+					color: white;
+					cursor: pointer;
+					display: inline-block;
+					font-family: 'Lato', sans-serif;
+					font-size: 18px;
+					height: 56px;
+					width: 228px;
+					&:first-child {
+						background-color: rgba(0, 0, 0, 0.7);
+						border: black 1px solid;
+					}
+					&:last-child {
+						background-color: rgba(255, 255, 255, 0.2);
+						border: white 1px solid;
+					}
+				}
+			}
+		}
+	}
+	.slide2 {
+		background-image: url('./Webp/AnyConv.com__slide2bg.webp');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 710px;
+		.slide2Wrapper {
+			align-items: center;
+			display: flex;
+			height: @height15;
+			justify-content: space-between;
+			margin: 0 auto;
+			max-width: @width1;
+			.left {
+				align-items: center;
+				display: flex;
+				flex-direction: column;
+				height: inherit;
+				justify-content: center;
+				width: @width12;
+				h2 {
+					color: @color0;
+					font-family: 'Yeseva One', cursive;
+					font-size: 36px;
+					text-align: center;
+				}
+				.separator2 {
+					background-image: url('./Webp/AnyConv.com__Separator2.webp');
+					background-position: center 20px;
+					background-repeat: no-repeat;
+					height: @height12;
+					width: @width11;
+				}
+				p {
+					font-family: 'Lato', sans-serif;
+					font-size: 16px;
+					line-height: 24px;
+					margin-bottom: 56px;
+					text-align: center;
+				}
+				.povarPic {
+					img {
+						transform: translateX(36px);
+					}
+				}
+			}
+			.dish {
+				background-image: url('./Webp/AnyConv.com__Dish.webp');
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: contain;
+				height: 625px;
+				width: 621px;
+			}
+		}
+	}
+	.slide3 {
+		background-image: url('./Webp/AnyConv.com__slide3bg.webp');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: @height9;
+		.slide3Wrapper {
+			align-items: center;
+			display: flex;
+			height: @height15;
+			justify-content: flex-end;
+			margin: 0 auto;
+			max-width: @width0;
+			.right {
+				background-color: rgba(0, 0, 0, 0.67);
+				height: 557px;
+				margin: 0 30px;
+				width: @width9;
+				.rightWrapper {
+					align-items: center;
+					display: flex;
+					flex-direction: column;
+					height: @height15;
+					justify-content: center;
+					margin: auto;
+					width: @width12;
+					h2 {
+						color: white;
+						font-family: 'Yeseva One', cursive;
+						font-size: 36px;
+						margin: 80px 0 0 0;
+						text-align: center;
+					}
+					.separator3 {
+						background-image: url('./Webp/AnyConv.com__Separator3.webp');
+						background-position: 0 20px;
+						background-repeat: no-repeat;
+						height: @height11;
+						width: @width11;
+					}
+					p {
+						color: white;
+						font-family: 'Lato', sans-serif;
+						font-size: 16px;
+						line-height: 24px;
+					}
+					.foodPics {
+						align-items: center;
+						display: flex;
+						justify-content: space-around;
+						margin: auto 0;
+						width: @width24;
+						.foodImg {
+							display: block;
+						}
+					}
+				}
+			}
+		}
+	}
+	.slide4 {
+		background-image: url('./Webp/AnyConv.com__slide4bg.webp');
+		background-position: center;
+		background-repeat: repeat-y;
+		background-size: cover;
+		height: 1050px;
+		.slide4WrapperMenu {
+			align-content: space-between;
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+			height: @height15;
+			justify-content: space-between;
+			margin: auto;
+			max-width: @width1;
+			padding: 100px 0;
+			.menuItem {
+				align-items: center;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				width: @width12;
+				&:last-child {
+					margin-bottom: 0;
+				}
+				h3 {
+					color: @color0;
+					font-family: 'Yeseva One', cursive;
+					font-size: 36px;
+					text-align: center;
+				}
+				.separator4 {
+					background-image: url('./Webp/AnyConv.com__Separator2.webp');
+					background-position: center 20px;
+					background-repeat: no-repeat;
+					height: @height12;
+					width: @width11;
+				}
+				.positionsCont {
+					width: inherit;
+					.singlePositionCont {
+						margin-bottom: 25px;
+						&:last-child {
+							margin-bottom: 0;
+						}
+						.namePriceCont {
+							color: @color0;
+							display: flex;
+							font-family: 'Yeseva One', cursive;
+							font-size: 24px;
+							justify-content: space-between;
+						}
+						hr {
+							color: rgba(255, 198, 93, 0.274);
+							height: 1px;
+							margin: 13px 0;
+							width: @width24;
+						}
+						.description {
+							font-family: 'Lato', sans-serif;
+						}
+					}
+				}
+			}
+		}
+	}
+	.slide5 {
+		background-image: url('./Webp/AnyConv.com__slide5bg.webp');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: @height9;
+		.slide5Wrapper {
+			align-items: center;
+			display: flex;
+			height: @height15;
+			justify-content: center;
+			.content {
+				display: block;
+			}
+		}
+	}
+	.slide6 {
+		background-image: url('./Webp/AnyConv.com__slide6bg.webp');
+		background-repeat: repeat-y;
+		background-size: cover;
+		.slide6Wrapper {
+			display: flex;
+			justify-content: space-between;
+			margin: 0 auto;
+			max-width: 1170px;
+			padding: 100px 0;
+			.pics {
+				display: flex;
+				justify-content: space-between;
+				width: @width9;
+				.pic {
+					display: block;
+					max-height: 507px;
+				}
+			}
+			.slide6Content {
+				align-items: center;
+				display: flex;
+				flex-direction: column;
+				margin: 0 auto;
+				max-width: 470px;
+				h2 {
+					color: @color0;
+					font-family: 'Yeseva One', cursive;
+					font-size: 36px;
+					text-align: center;
+				}
+				.separator6 {
+					background-image: url('./Webp/AnyConv.com__Separator6.webp');
+					background-position: center 20px;
+					background-repeat: no-repeat;
+					background-size: contain;
+					height: @height11;
+					width: @width11;
+				}
+				.slide6Paragraph {
+					color: black;
+					font-family: 'Lato', sans-serif;
+					font-size: 16px;
+					line-height: 24px;
+					margin-bottom: 13px;
+					text-align: center;
+				}
+				form {
+					display: flex;
+					flex-direction: column;
+					width: @width24;
+					.inputsCont {
+						display: flex;
+						flex-wrap: wrap;
+						justify-content: space-between;
+						.inputCont {
+							margin-bottom: 30px;
+							label {
+								color: @color0;
+								display: block;
+								font-family: 'Open Sans', sans-serif;
+								font-size: 14px;
+								font-weight: bold;
+								margin-bottom: 10px;
+							}
+							input {
+								display: block;
+								height: @height10;
+								padding: 13px;
+								width: @width10;
+								&::placeholder {
+										color: grey;
+										font-size: 16px;
+										font-style: italic;
+										font-weight: normal;
+								}
+							}
+						}
+					}
+					.submit {
+						input {
+							background-color: @color0;
+							color: white;
+							display: block;
+							font-family: 'Open Sans', sans-serif;
+							font-size: 16px;
+							height: @height10;
+							margin: 0 auto;
+							width: @width10;
+						}
+					}
+				}
+			}
+		}
+	}
+	footer {
+		background-color: #191919;
+		.footerCont {
+			color: white;
+			display: flex;
+			justify-content: space-between;
+			margin: 0 auto;
+			max-width: @width1;
+			padding: 58px 0 70px 0;
+			.footerElem {
+				align-items: center;
+				display: flex;
+				flex-basis: auto;
+				flex-direction: column;
+				flex-grow: 1;
+				max-width: 370px;
+				text-align: center;
+				&:last-child {
+					margin-bottom: 0;
+				}
+				&:nth-child(2) {
+					justify-self: center;
+				}
+				h3 {
+					font-family: 'Yeseva One', cursive;
+					font-size: 21px;
+				}
+				.footerSeparator {
+					background-image: url('./Webp/AnyConv.com__separatorFooter.webp');
+					background-position: center;
+					background-repeat: no-repeat;
+					background-size: contain;
+					height: 58px;
+					width: 199px;
+				}
+				.footerText {
+					font-family: 'Open Sans', sans-serif;
+					font-size: 16px;
+					line-height: 24px;
+					.footerTextBold {
+						font-weight: bold;
+					}
+				}
+				.footerIcon {
+					cursor: pointer;
+					display: block;
+					margin-top: auto;
+				}
+			}
+		}
+	}
+}
+@media (max-width:850px) {
+			.pageWrapper .slide1 .slide1Content .buttonsCont button { width: 30vw;}
+			.pageWrapper .slide1 .slide1Content .buttonsCont { width: 66vw;}
+			.pageWrapper .slide1 .slide1Content h1 { font-size: 7vw;}
+			.pageWrapper .slide1 .slide1Content { height: auto;}
+			.pageWrapper .slide1 header .headerCont .burger { display: flex;}
+			.pageWrapper .slide1 header .headerCont .links nav .navContainer .navLi { padding: 0;}
+			.pageWrapper .slide1 header .headerCont .links nav .navContainer { flex-direction: column;}
+			.pageWrapper .slide1 header .headerCont .links { display: none;}
+			.pageWrapper .slide1 header .headerCont .logoWrapper { margin: 10px 0;}
+			.pageWrapper .slide1 header .headerCont { border-bottom: white 1px solid;}
+			.pageWrapper .slide5 .slide5Wrapper .content { width: 95%;}
+			.pageWrapper footer .footerCont .footerElem { margin-bottom: 55px;}
+			.pageWrapper footer .footerCont { flex-direction: column;}
+			align-items: center;
+			align-items: center;
+			align-items: center;
+			align-items: center;
+			background-color: rgba(0, 0, 0, 0.2);
+			flex-direction: column;
+			flex-direction: column;
+			height: auto;
+			justify-content: center;
+			justify-content: center;
+			margin-bottom: 10px;
+			margin-bottom: 5px;
+			margin: 15px 0;
+			margin: auto;
+			padding: 0;
+			text-align: center;
+			width: 100vw;
+			width: @width24;
+}
+        @media (max-width:1090px) {
+			.pageWrapper .slide1 .slide1Content h1 { font-size: 70px;}
+			.pageWrapper .slide1 header .headerCont .links nav .navContainer .navLi { padding: 0 5px;}
+			.pageWrapper .slide1 header .headerCont .links nav .navContainer { justify-content: space-between;}
+		}
+        @media (max-width:420px) {
+			.pageWrapper .slide1 .slide1Content .buttonsCont button { font-size: 16px;}
+			.pageWrapper .slide1 .slide1Content .separator { width: 60vw;}
+			.pageWrapper .slide1 .slide1Content h1 { font-size: 32px;}
+			background-size: contain;
+			padding: 0 5px;
+		}
+        @media (max-width:1050px) {
+			.pageWrapper .slide2 .slide2Wrapper .dish { display: none;}
+			.pageWrapper .slide2 .slide2Wrapper { justify-content: center;}
+			.pageWrapper .slide4 .slide4WrapperMenu .menuItem { margin-bottom: 70px;}
+			.pageWrapper .slide4 .slide4WrapperMenu { padding: 100px 0;}
+			.pageWrapper .slide4 { height: auto;}
+			align-content: center;
+			height: auto;
+			max-width: @width12;
+			padding: 0 30px;
+			width: auto;
+		}
+        @media (max-width:460px) {
+			.pageWrapper .slide2 .slide2Wrapper .left h2 { font-size: 28px;}
+			.pageWrapper .slide2 .slide2Wrapper .left p { font-size: 3.5vw;}
+			.pageWrapper .slide2 .slide2Wrapper .left { padding: 0 10px;}
+		}
+        @media (max-width:1366px) {
+			.pageWrapper .slide3 .slide3Wrapper { justify-content: center;}
+			min-width: auto;
+		}
+@media (max-width:630px) {
+			.pageWrapper .slide3 .slide3Wrapper .right .rightWrapper .foodPics .foodImg { width: 18vw;}
+			.pageWrapper .slide3 .slide3Wrapper .right .rightWrapper h2 { font-size: 28px;}
+			.pageWrapper .slide3 .slide3Wrapper .right .rightWrapper p { font-size: 14px;}
+			.pageWrapper .slide3 .slide3Wrapper .right .rightWrapper { width: 85%;}
+			.pageWrapper .slide3 .slide3Wrapper .right { width: 95vw;}
+			.pageWrapper .slide4 .slide4WrapperMenu .menuItem .positionsCont .singlePositionCont .description { font-size: 14px;}
+			.pageWrapper .slide4 .slide4WrapperMenu .menuItem .positionsCont .singlePositionCont .namePriceCont { font-size: 14px;}
+			.pageWrapper .slide4 .slide4WrapperMenu .menuItem .separator4 { background-size: contain;}
+			.pageWrapper .slide4 .slide4WrapperMenu .menuItem h3 { font-size: 24px;}
+			.pageWrapper .slide6 .slide6Wrapper .slide6Content .slide6Paragraph { font-size: 12px;}
+			.pageWrapper .slide6 .slide6Wrapper .slide6Content form .inputsCont .inputCont input::placeholder { font-size: 13px;}
+			.pageWrapper .slide6 .slide6Wrapper .slide6Content form .inputsCont .inputCont label { text-align: center;}
+			.pageWrapper .slide6 .slide6Wrapper .slide6Content form .inputsCont .inputCont { margin: 0 15px 15px 15px;}
+			.pageWrapper .slide6 .slide6Wrapper .slide6Content form .inputsCont { justify-content: space-around;}
+			.pageWrapper .slide6 .slide6Wrapper .slide6Content h2 { font-size: 28px;}
+			font-size: 12px;
+			margin-bottom: 15px;
+			margin-top: auto;
+			padding: 0 25px;
+			padding: 5vw;
+			text-align: center;
+			width: 60%;
+		}
+@media (max-width:1200px) {
+			.pageWrapper .slide4 .slide4WrapperMenu { padding: 100px 3rem;}
+		}
+@media (max-width:350px) {
+			.pageWrapper .slide5 .slide5Wrapper .content { width: 340px;}
+		}
+@media (max-width:1100px) {
+			.pageWrapper .slide6 .slide6Wrapper .pics { display: none;}
+		}
