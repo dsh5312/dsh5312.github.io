@@ -1,0 +1,674 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.pageWrapper .slide1 {
+  background-color: grey;
+  background-image: url("./Webp/AnyConv.com__slide1bg.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 750px;
+  justify-content: space-between;
+}
+.pageWrapper .slide1 header {
+  margin: 0 auto;
+  max-width: 1250px;
+  width: 100%;
+}
+.pageWrapper .slide1 header .headerCont {
+  display: flex;
+  height: 110px;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.pageWrapper .slide1 header .headerCont .logoWrapper {
+  height: inherit;
+  width: 155px;
+}
+.pageWrapper .slide1 header .headerCont .logoWrapper .logoImg {
+  height: inherit;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: inherit;
+}
+.pageWrapper .slide1 header .headerCont .links {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  height: inherit;
+  justify-content: space-between;
+}
+.pageWrapper .slide1 header .headerCont .links nav {
+  flex-grow: 1;
+  flex-shrink: 1;
+  height: inherit;
+  width: 100%;
+}
+.pageWrapper .slide1 header .headerCont .links nav .navContainer {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: inherit;
+  justify-content: flex-end;
+  list-style: none;
+  padding: 0 20px;
+}
+.pageWrapper .slide1 header .headerCont .links nav .navContainer .navLi {
+  color: white;
+  cursor: pointer;
+  font-family: "Gentium Book Basic", serif;
+  font-size: 21px;
+  padding: 0 25px;
+}
+.pageWrapper .slide1 header .headerCont .links nav .navContainer .navLi:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.597);
+  font-size: 23px;
+}
+.pageWrapper .slide1 header .headerCont .links .socialPic {
+  height: inherit;
+  width: 80px;
+}
+.pageWrapper .slide1 header .headerCont .links .socialPic img {
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+}
+.pageWrapper .slide1 header .headerCont .links.active {
+  display: flex;
+}
+.pageWrapper .slide1 header .headerCont .burger {
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.251);
+  border-radius: 10px;
+  border: 1px solid white;
+  cursor: pointer;
+  display: none;
+  flex-direction: column;
+  height: 45px;
+  justify-content: center;
+  position: absolute;
+  right: 37px;
+  top: 37px;
+  width: 45px;
+}
+.pageWrapper .slide1 header .headerCont .burger:hover {
+  background-color: rgba(218, 218, 218, 0.482);
+}
+.pageWrapper .slide1 header .headerCont .burger .layer {
+  background-color: rgba(255, 255, 255, 0.893);
+  border-radius: 2px;
+  box-shadow: 0px 0px 2px #000000;
+  height: 3px;
+  margin: 2px 0;
+  width: 20px;
+}
+.pageWrapper .slide1 .slide1Content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 640px;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1250px;
+  text-align: center;
+}
+.pageWrapper .slide1 .slide1Content h1 {
+  color: white;
+  font-family: "Yeseva One", cursive;
+  font-size: 90px;
+  text-shadow: 1px 2px 2px #000000;
+}
+.pageWrapper .slide1 .slide1Content .separator {
+  background-image: url("./Webp/AnyConv.com__Decoration.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 130px;
+  width: 230px;
+}
+.pageWrapper .slide1 .slide1Content .buttonsCont {
+  display: flex;
+  justify-content: space-between;
+  width: 486px;
+}
+.pageWrapper .slide1 .slide1Content .buttonsCont button {
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  height: 56px;
+  width: 228px;
+}
+.pageWrapper .slide1 .slide1Content .buttonsCont button:first-child {
+  background-color: rgba(0, 0, 0, 0.7);
+  border: black 1px solid;
+}
+.pageWrapper .slide1 .slide1Content .buttonsCont button:last-child {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: white 1px solid;
+}
+.pageWrapper .slide2 {
+  background-image: url("./Webp/AnyConv.com__slide2bg.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 710px;
+}
+.pageWrapper .slide2 .slide2Wrapper {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1100px;
+}
+.pageWrapper .slide2 .slide2Wrapper .left {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+  justify-content: center;
+  width: 430px;
+}
+.pageWrapper .slide2 .slide2Wrapper .left h2 {
+  color: #cc9900;
+  font-family: "Yeseva One", cursive;
+  font-size: 36px;
+  text-align: center;
+}
+.pageWrapper .slide2 .slide2Wrapper .left .separator2 {
+  background-image: url("./Webp/AnyConv.com__Separator2.webp");
+  background-position: center 20px;
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 247px;
+}
+.pageWrapper .slide2 .slide2Wrapper .left p {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 56px;
+  text-align: center;
+}
+.pageWrapper .slide2 .slide2Wrapper .left .povarPic img {
+  transform: translateX(36px);
+}
+.pageWrapper .slide2 .slide2Wrapper .dish {
+  background-image: url("./Webp/AnyConv.com__Dish.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 625px;
+  width: 621px;
+}
+.pageWrapper .slide3 {
+  background-image: url("./Webp/AnyConv.com__slide3bg.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 758px;
+}
+.pageWrapper .slide3 .slide3Wrapper {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: flex-end;
+  margin: 0 auto;
+  max-width: 1250px;
+}
+.pageWrapper .slide3 .slide3Wrapper .right {
+  background-color: rgba(0, 0, 0, 0.67);
+  height: 557px;
+  margin: 0 30px;
+  width: 570px;
+}
+.pageWrapper .slide3 .slide3Wrapper .right .rightWrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  margin: auto;
+  width: 430px;
+}
+.pageWrapper .slide3 .slide3Wrapper .right .rightWrapper h2 {
+  color: white;
+  font-family: "Yeseva One", cursive;
+  font-size: 36px;
+  margin: 80px 0 0 0;
+  text-align: center;
+}
+.pageWrapper .slide3 .slide3Wrapper .right .rightWrapper .separator3 {
+  background-image: url("./Webp/AnyConv.com__Separator3.webp");
+  background-position: 0 20px;
+  background-repeat: no-repeat;
+  height: 70px;
+  width: 247px;
+}
+.pageWrapper .slide3 .slide3Wrapper .right .rightWrapper p {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+.pageWrapper .slide3 .slide3Wrapper .right .rightWrapper .foodPics {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  margin: auto 0;
+  width: 100%;
+}
+.pageWrapper .slide3 .slide3Wrapper .right .rightWrapper .foodPics .foodImg {
+  display: block;
+}
+.pageWrapper .slide4 {
+  background-image: url("./Webp/AnyConv.com__slide4bg.webp");
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+  height: 1050px;
+}
+.pageWrapper .slide4 .slide4WrapperMenu {
+  align-content: space-between;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 1100px;
+  padding: 100px 0;
+}
+.pageWrapper .slide4 .slide4WrapperMenu .menuItem {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 430px;
+}
+.pageWrapper .slide4 .slide4WrapperMenu .menuItem:last-child {
+  margin-bottom: 0;
+}
+.pageWrapper .slide4 .slide4WrapperMenu .menuItem h3 {
+  color: #cc9900;
+  font-family: "Yeseva One", cursive;
+  font-size: 36px;
+  text-align: center;
+}
+.pageWrapper .slide4 .slide4WrapperMenu .menuItem .separator4 {
+  background-image: url("./Webp/AnyConv.com__Separator2.webp");
+  background-position: center 20px;
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 247px;
+}
+.pageWrapper .slide4 .slide4WrapperMenu .menuItem .positionsCont {
+  width: inherit;
+}
+.pageWrapper .slide4 .slide4WrapperMenu .menuItem .positionsCont .singlePositionCont {
+  margin-bottom: 25px;
+}
+.pageWrapper .slide4 .slide4WrapperMenu .menuItem .positionsCont .singlePositionCont:last-child {
+  margin-bottom: 0;
+}
+.pageWrapper .slide4 .slide4WrapperMenu .menuItem .positionsCont .singlePositionCont .namePriceCont {
+  color: #cc9900;
+  display: flex;
+  font-family: "Yeseva One", cursive;
+  font-size: 24px;
+  justify-content: space-between;
+}
+.pageWrapper .slide4 .slide4WrapperMenu .menuItem .positionsCont .singlePositionCont hr {
+  color: rgba(255, 198, 93, 0.274);
+  height: 1px;
+  margin: 13px 0;
+  width: 100%;
+}
+.pageWrapper .slide4 .slide4WrapperMenu .menuItem .positionsCont .singlePositionCont .description {
+  font-family: "Lato", sans-serif;
+}
+.pageWrapper .slide5 {
+  background-image: url("./Webp/AnyConv.com__slide5bg.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 758px;
+}
+.pageWrapper .slide5 .slide5Wrapper {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}
+.pageWrapper .slide5 .slide5Wrapper .content {
+  display: block;
+}
+.pageWrapper .slide6 {
+  background-image: url("./Webp/AnyConv.com__slide6bg.webp");
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+.pageWrapper .slide6 .slide6Wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1170px;
+  padding: 100px 0;
+}
+.pageWrapper .slide6 .slide6Wrapper .pics {
+  display: flex;
+  justify-content: space-between;
+  width: 570px;
+}
+.pageWrapper .slide6 .slide6Wrapper .pics .pic {
+  display: block;
+  max-height: 507px;
+}
+.pageWrapper .slide6 .slide6Wrapper .slide6Content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 470px;
+}
+.pageWrapper .slide6 .slide6Wrapper .slide6Content h2 {
+  color: #cc9900;
+  font-family: "Yeseva One", cursive;
+  font-size: 36px;
+  text-align: center;
+}
+.pageWrapper .slide6 .slide6Wrapper .slide6Content .separator6 {
+  background-image: url("./Webp/AnyConv.com__Separator6.webp");
+  background-position: center 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 70px;
+  width: 247px;
+}
+.pageWrapper .slide6 .slide6Wrapper .slide6Content .slide6Paragraph {
+  color: black;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 13px;
+  text-align: center;
+}
+.pageWrapper .slide6 .slide6Wrapper .slide6Content form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.pageWrapper .slide6 .slide6Wrapper .slide6Content form .inputsCont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.pageWrapper .slide6 .slide6Wrapper .slide6Content form .inputsCont .inputCont {
+  margin-bottom: 30px;
+}
+.pageWrapper .slide6 .slide6Wrapper .slide6Content form .inputsCont .inputCont label {
+  color: #cc9900;
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.pageWrapper .slide6 .slide6Wrapper .slide6Content form .inputsCont .inputCont input {
+  display: block;
+  height: 36px;
+  padding: 13px;
+  width: 200px;
+}
+.pageWrapper .slide6 .slide6Wrapper .slide6Content form .inputsCont .inputCont input::-moz-placeholder {
+  color: grey;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: normal;
+}
+.pageWrapper .slide6 .slide6Wrapper .slide6Content form .inputsCont .inputCont input:-ms-input-placeholder {
+  color: grey;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: normal;
+}
+.pageWrapper .slide6 .slide6Wrapper .slide6Content form .inputsCont .inputCont input::placeholder {
+  color: grey;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: normal;
+}
+.pageWrapper .slide6 .slide6Wrapper .slide6Content form .submit input {
+  background-color: #cc9900;
+  color: white;
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  height: 36px;
+  margin: 0 auto;
+  width: 200px;
+}
+.pageWrapper footer {
+  background-color: #191919;
+}
+.pageWrapper footer .footerCont {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1100px;
+  padding: 58px 0 70px 0;
+}
+.pageWrapper footer .footerCont .footerElem {
+  align-items: center;
+  display: flex;
+  flex-basis: auto;
+  flex-direction: column;
+  flex-grow: 1;
+  max-width: 370px;
+  text-align: center;
+}
+.pageWrapper footer .footerCont .footerElem:last-child {
+  margin-bottom: 0;
+}
+.pageWrapper footer .footerCont .footerElem:nth-child(2) {
+  justify-self: center;
+}
+.pageWrapper footer .footerCont .footerElem h3 {
+  font-family: "Yeseva One", cursive;
+  font-size: 21px;
+}
+.pageWrapper footer .footerCont .footerElem .footerSeparator {
+  background-image: url("./Webp/AnyConv.com__separatorFooter.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 58px;
+  width: 199px;
+}
+.pageWrapper footer .footerCont .footerElem .footerText {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+.pageWrapper footer .footerCont .footerElem .footerText .footerTextBold {
+  font-weight: bold;
+}
+.pageWrapper footer .footerCont .footerElem .footerIcon {
+  cursor: pointer;
+  display: block;
+  margin-top: auto;
+}
+
+@media (max-width: 850px) {
+  .pageWrapper .slide1 .slide1Content .buttonsCont button {
+    width: 30vw;
+  }
+  .pageWrapper .slide1 .slide1Content .buttonsCont {
+    width: 66vw;
+  }
+  .pageWrapper .slide1 .slide1Content h1 {
+    font-size: 7vw;
+  }
+  .pageWrapper .slide1 .slide1Content {
+    height: auto;
+  }
+  .pageWrapper .slide1 header .headerCont .burger {
+    display: flex;
+  }
+  .pageWrapper .slide1 header .headerCont .links nav .navContainer .navLi {
+    padding: 0;
+  }
+  .pageWrapper .slide1 header .headerCont .links nav .navContainer {
+    flex-direction: column;
+  }
+  .pageWrapper .slide1 header .headerCont .links {
+    display: none;
+  }
+  .pageWrapper .slide1 header .headerCont .logoWrapper {
+    margin: 10px 0;
+  }
+  .pageWrapper .slide1 header .headerCont {
+    border-bottom: white 1px solid;
+  }
+  .pageWrapper .slide5 .slide5Wrapper .content {
+    width: 95%;
+  }
+  .pageWrapper footer .footerCont .footerElem {
+    margin-bottom: 55px;
+  }
+  .pageWrapper footer .footerCont {
+    flex-direction: column;
+  }
+}
+@media (max-width: 1090px) {
+  .pageWrapper .slide1 .slide1Content h1 {
+    font-size: 70px;
+  }
+  .pageWrapper .slide1 header .headerCont .links nav .navContainer .navLi {
+    padding: 0 5px;
+  }
+  .pageWrapper .slide1 header .headerCont .links nav .navContainer {
+    justify-content: space-between;
+  }
+}
+@media (max-width: 420px) {
+  .pageWrapper .slide1 .slide1Content .buttonsCont button {
+    font-size: 16px;
+  }
+  .pageWrapper .slide1 .slide1Content .separator {
+    width: 60vw;
+  }
+  .pageWrapper .slide1 .slide1Content h1 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 1050px) {
+  .pageWrapper .slide2 .slide2Wrapper .dish {
+    display: none;
+  }
+  .pageWrapper .slide2 .slide2Wrapper {
+    justify-content: center;
+  }
+  .pageWrapper .slide4 .slide4WrapperMenu .menuItem {
+    margin-bottom: 70px;
+  }
+  .pageWrapper .slide4 .slide4WrapperMenu {
+    padding: 100px 0;
+  }
+  .pageWrapper .slide4 {
+    height: auto;
+  }
+}
+@media (max-width: 460px) {
+  .pageWrapper .slide2 .slide2Wrapper .left h2 {
+    font-size: 28px;
+  }
+  .pageWrapper .slide2 .slide2Wrapper .left p {
+    font-size: 3.5vw;
+  }
+  .pageWrapper .slide2 .slide2Wrapper .left {
+    padding: 0 10px;
+  }
+}
+@media (max-width: 1366px) {
+  .pageWrapper .slide3 .slide3Wrapper {
+    justify-content: center;
+  }
+}
+@media (max-width: 630px) {
+  .pageWrapper .slide3 .slide3Wrapper .right .rightWrapper .foodPics .foodImg {
+    width: 18vw;
+  }
+  .pageWrapper .slide3 .slide3Wrapper .right .rightWrapper h2 {
+    font-size: 28px;
+  }
+  .pageWrapper .slide3 .slide3Wrapper .right .rightWrapper p {
+    font-size: 14px;
+  }
+  .pageWrapper .slide3 .slide3Wrapper .right .rightWrapper {
+    width: 85%;
+  }
+  .pageWrapper .slide3 .slide3Wrapper .right {
+    width: 95vw;
+  }
+  .pageWrapper .slide4 .slide4WrapperMenu .menuItem .positionsCont .singlePositionCont .description {
+    font-size: 14px;
+  }
+  .pageWrapper .slide4 .slide4WrapperMenu .menuItem .positionsCont .singlePositionCont .namePriceCont {
+    font-size: 14px;
+  }
+  .pageWrapper .slide4 .slide4WrapperMenu .menuItem .separator4 {
+    background-size: contain;
+  }
+  .pageWrapper .slide4 .slide4WrapperMenu .menuItem h3 {
+    font-size: 24px;
+  }
+  .pageWrapper .slide6 .slide6Wrapper .slide6Content .slide6Paragraph {
+    font-size: 12px;
+  }
+  .pageWrapper .slide6 .slide6Wrapper .slide6Content form .inputsCont .inputCont input::-moz-placeholder {
+    font-size: 13px;
+  }
+  .pageWrapper .slide6 .slide6Wrapper .slide6Content form .inputsCont .inputCont input:-ms-input-placeholder {
+    font-size: 13px;
+  }
+  .pageWrapper .slide6 .slide6Wrapper .slide6Content form .inputsCont .inputCont input::placeholder {
+    font-size: 13px;
+  }
+  .pageWrapper .slide6 .slide6Wrapper .slide6Content form .inputsCont .inputCont label {
+    text-align: center;
+  }
+  .pageWrapper .slide6 .slide6Wrapper .slide6Content form .inputsCont .inputCont {
+    margin: 0 15px 15px 15px;
+  }
+  .pageWrapper .slide6 .slide6Wrapper .slide6Content form .inputsCont {
+    justify-content: space-around;
+  }
+  .pageWrapper .slide6 .slide6Wrapper .slide6Content h2 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 1200px) {
+  .pageWrapper .slide4 .slide4WrapperMenu {
+    padding: 100px 3rem;
+  }
+}
+@media (max-width: 350px) {
+  .pageWrapper .slide5 .slide5Wrapper .content {
+    width: 340px;
+  }
+}
+@media (max-width: 1100px) {
+  .pageWrapper .slide6 .slide6Wrapper .pics {
+    display: none;
+  }
+}/*# sourceMappingURL=styles.css.map */
